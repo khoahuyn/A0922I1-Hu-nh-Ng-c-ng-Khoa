@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web dành cho người yêu mèo</title>
+</head>
+<body>
+    <h1>Ảnh mèo cute</h1>
+    <p>Mèo khóc</p>
+    <a href="https://www.google.com/search?sxsrf=ALiCzsZktLK9OpaNeLVJb0REP8MUea32WQ:1665147085853&source=univ&tbm=isch&q=%E1%BA%A3nh+m%C3%A8o&fir=752Ch-CGhkwK0M%252CiAMjb7_bYOJ1VM%252C_%253BP5kzKaIGtQUasM%252C7ec5MRtgbv-gSM%252C_%253BxFf9Z7Agq8Qj1M%252CKqRq3hJybUQ-TM%252C_%253BJqqJ0D-JKqS7VM%252CDTNI5YFjvg17uM%252C_%253Bhy6l0UWkEPJ2qM%252CrD5TrULsSAP0fM%252C_%253BW6cu1e-FM7aoQM%252CiPOHgJjR5bNzEM%252C_%253Bs1gslBmUCnaNLM%252CwvxGVm8on0d1xM%252C_%253BGgfxyoEM13S8tM%252CoskP3HjTz3QbsM%252C_%253Bc6-VSQQBvfleHM%252CyQxdFnQPF372aM%252C_%253BmGzasQGs0s2QvM%252CYLNxCVO26v2p8M%252C_%253BL3daz5bWEf_zkM%252CnNFauirIOm_XzM%252C_%253BLl2TghXOYE_JXM%252CxaHRpackR_313M%252C_%253BFu3oqaLQ3C-BuM%252CwFZ7K9fjMsBfXM%252C_%253B2Ffoiamd4RN5UM%252CwIT5mnODf7U0KM%252C_%253B4y9z5C0p5kxarM%252CHC9IFTH0uIbcSM%252C_%253BF5Us7RVWJCILDM%252CxaHRpackR_313M%252C_&usg=AI4_-kSOCFe-Sp2S6xfDS73nCcrbOKEuog&sa=X&ved=2ahUKEwj-8LOklM76AhWadd4KHYBgAdEQjJkEegQICBAC&biw=980&bih=730&dpr=1.25" target="_blank">Đọc thêm ở đây
+        <p>
+        <img src="https://anhdephd.vn/wp-content/uploads/2022/04/hinh-anh-meo-khoc.jpg" width="100">
+        </p>
+    </a>
+
+</body>
+</html>
