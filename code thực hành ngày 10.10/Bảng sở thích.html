@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng mẫu sở thích</title>
+    <style>
+        h1{
+            font-size: 3.2rem;
+            text-transform: uppercase;
+            text-align: center;
+            background-color: tomato;
+            color:white;
+        }
+        table{
+            width: 80%;
+            margin: 0 auto;
+        }
+        table tr > th{
+            color: dodgerblue;
+            text-align: right;
+        }
+        .box-form{
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sở thích của bạn</h1>
+    <form method="get">
+        <table>
+            <tr>
+                <th>Họ và tên:</th>
+                <td><input type="text" name="yourname"></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input type="text" name="email"></td>
+
+            </tr>
+            <tr>
+                <th>Sở thích:</th>
+                <td class="box-form"><input type="checkbox" name="hobby">Thể thao</td>
+                <td class="box-form"><input type="checkbox" name="hobby">Âm nhạc</td>
+                <td class="box-form"><input type="checkbox" name="hobby">Đọc sách</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="box-form"><input type="checkbox" name="hobby">Lướt web</td>
+                <td class="box-form"><input type="checkbox" name="hobby">Chơi game</td>
+                <td class="box-form"><input type="checkbox" name="hobby">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="box-form"><input type="checkbox" name="hobby">Du Lịch</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td ><button type="submit">Gửi thông tin <button type="reset">Nhập lai </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
