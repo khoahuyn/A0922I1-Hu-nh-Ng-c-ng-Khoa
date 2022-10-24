@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form đổi tiền tệ</title>
+</head>
+<body>
+        <form method="get">
+            <table>
+                <tr>
+                    <th>Amount</th>
+                    <th>Form Currency</th>
+                    <th>To Currency</th>
+                </tr>
+                <tr>
+                    <td><label><input type="text" id="tien"></label></td>
+                    <td><label><select id="from">
+                        <option>VietNam</option>
+                        <option>USD</option>
+                    </select></label></td>
+                    <td><label><select id="to">
+                        <option>USD</option>
+                        <option>VietNam</option>
+                    </select></label></td>
+                    <td><label><input type="button" value="Convert" onclick="do_something()"></label></td>
+                </tr>
+            </table>
+            <p id="ketqua"></p>
+        </form>
+</body>
+</html>
+<script src="chuyen doi.js"></script>
