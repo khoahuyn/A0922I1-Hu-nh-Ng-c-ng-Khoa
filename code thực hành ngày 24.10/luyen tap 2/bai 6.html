@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let a=prompt("nhap vao so thu nhat: ")
+    let b=prompt("nhap vao so thu hai: ")
+    if(isNaN(a)==true || isNaN(b)==true ) {
+        alert("nhap sai")
+    }else if(a==0){
+        if(b==0){
+            alert("PT VO SO NGHIEM")
+        }else {
+            alert("PT VO NGHIEM")
+        }
+    }else{
+        let x2=-b/a;
+        alert("phuong trinh co mot nghiem la: "+x2);
+    }
+</script>

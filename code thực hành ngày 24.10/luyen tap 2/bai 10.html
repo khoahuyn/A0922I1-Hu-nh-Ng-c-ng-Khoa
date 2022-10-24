@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tiendien=prompt("nhap vao thu nhap ca nhan: ")
+    if(isNaN(tiendien)==true) {
+        alert("nhap sai!!!")
+    }else {
+        if (tiendien < 100) {
+            alert("thue dien la: " + tiendien * 15 / 100);
+        } else if(tiendien >=100) {
+            alert("thue dien la: " + tiendien * 40 / 100);
+        }
+    }
+</script>
+</body>
+</html>
