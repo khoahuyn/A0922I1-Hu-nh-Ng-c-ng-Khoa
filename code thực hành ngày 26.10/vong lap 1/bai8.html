@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <p><input type="button" onclick="Nhap()" value="Chơi" size="100%"></p>
+</form>
+</body>
+</html>
+<script>
+    function Nhap() {
+        let range = +prompt("Range from  0 to.... :  ");
+        let number = +prompt("Enter the number you want to guess : ");
+        let random_number;
+        if (range) {
+            random_number = Math.floor(Math.random() * range)
+            if (random_number === number) {
+                alert("You guessed right, Congratulation !! ");
+            } else {
+                if (random_number <= number) {
+                    alert("You guess wrong, the number you guess is smaller");
+                    let number = +prompt("Enter the number you want to guess : ");
+                } else if (random_number >= number) {
+                    alert("You guess wrong, the number you guess is smaller");
+                    let number = +prompt("Enter the number you want to guess : ");
+                }
+            }
+        }
+    }
+
+
+
+</script>

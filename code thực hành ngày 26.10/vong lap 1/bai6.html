@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let n
+    do {
+        n = prompt("Nhap so luong day:")
+        if (n < 0) {
+            alert("Moi ban nhap lai:")
+            n = prompt("Nhap so luong day")
+        }else{
+            let  sum = 0
+            for (let i = 0; i < n; i++) {
+                if (i % 7 === 0) {
+                    sum += i
+                }
+            }
+        document.write("Tong cac so chia het cho 7:" + sum)
+        }
+    }while(n<0)
+
+</script>

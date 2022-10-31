@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let n
+    do{
+        n=prompt("Nhap so luong day:")
+        if(n<1){
+            alert("Moi ban nhap lai:")
+            n=prompt("Nhap so luong day:")
+        }else{
+            let giaithua=1
+            for (let i = 1; i <=n ; i++) {
+                giaithua*=i
+            }
+            document.write("Giai thua la:"+giaithua)
+        }
+    }while(n<1)
+
+</script>
