@@ -9,17 +9,17 @@
 </body>
 </html>
 <script>
-    let a=[[],[]]
-    let numOf=parseInt(prompt("Nhập số lượng hàng:"))
-    let numOf1=parseInt(prompt("Nhập số lượng cột:"))
-
-    for (let i = 0; i <numOf ; i++) {
-        for (let j = 0; j <numOf1 ; j++) {
-            array[i]=parseInt(prompt("Nhập vào phần tử thứ "+(i+1)+":"))
-            array[j]=parseInt(prompt("Nhập vào phần tử thứ "+(j+1)+":"))
+    let arr = [
+        [1, 2, 1, 24],
+        [8, 11, 9, 4],
+        [7, 0, 7, 27],
+        [7, 4, 28, 14],
+        [3, 10, 26, 7]
+    ];
+    for (let i = 0; i <4 ; i++) {
+        document.write("row"+i+"<br>")
+        for (let j = 0; j <4 ; j++) {
+            document.write(arr[i][j]+"<br>")
         }
-        document.write("<br>")
     }
-    console.log(array)
-
 </script>
