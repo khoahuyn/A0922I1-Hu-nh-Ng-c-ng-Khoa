@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vẽ hình chữ nhật</title>
+</head>
+<body>
+<script>
+    let  Rectangle=function (longs,width) {
+        this.longs = longs;
+        this.width = width;
+
+
+        this.getLongs = function() {
+            return this.longs;
+        }
+        this.getWidth = function() {
+            return this.width;
+        }
+        this.getPerimeter = function() {
+            return (this.getLongs()+this.getWidth())*2;
+        }
+
+        this.getArea = function() {
+            return this.getLongs()*this.getWidth();
+        }
+
+        this.toString= function () {
+            return "Perimeter: " + this.getPerimeter() + "; area: " + this.getArea()
+        }
+
+    };
+    let rectangle = new Rectangle(4,5);
+    alert(rectangle.toString());
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let number=prompt("Nhập vào một ký tự để kiểm tra:");
+    function test(number) {
+        if(!isNaN(number)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    let result=test(number)
+    result===true? alert('Đây là số ') : alert('Đây là kí tự');
+</script>

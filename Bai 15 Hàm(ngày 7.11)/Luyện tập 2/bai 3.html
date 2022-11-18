@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh giai thua</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let userNumber = parseInt(prompt('Nhập vào 1 số để tìm giai thừa của số đó : '));
+    function factorial(userNumber) {
+        let result=1
+        for (let i=1 ; i<=userNumber ; i++) {
+                result *= i;
+        }
+        return result;
+    }
+    document.write('Giai thừa của '+userNumber+' là : '+factorial(userNumber));
+</script>
